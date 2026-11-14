@@ -29,7 +29,7 @@ pip install -r requirements.txt
 1. Tải `online_retail_II.csv` từ link Kaggle ở trên, đặt vào `data/`.
 2. PostgreSQL: tạo CSDL bằng pgAdmin 4, Import tệp dữ liệu thô `online_retail_II.csv` vào bảng staging `staging_retail`.
 4. Mở EDA: `jupyter lab notebooks/01_eda.ipynb`
-5. Chạy tuần tự các file từ 02 đến trong thư mục notebooks/. Dữ liệu đầu ra của bước trước sẽ được lưu vào PostgreSQL để làm đầu vào cho bước sau.
+5. Chạy tuần tự các file từ 02 đến 05 trong thư mục notebooks/. Dữ liệu đầu ra của bước trước sẽ được lưu vào PostgreSQL để làm đầu vào cho bước sau.
 
 ## Tiến độ
 - [x] Tuần 5–7: môi trường, bảng staging, EDA
